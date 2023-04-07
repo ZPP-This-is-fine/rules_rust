@@ -1,5 +1,5 @@
 {
-  "checksum": "406141a4b7e7f4f175213fd66a5ae3a793048ae96a9f7298ff04af8c6c5a43e6",
+  "checksum": "93a70712434055b5fc6b3aa458ee3a032c9cf8615254ea8e881120e714f7e1b2",
   "crates": {
     "aho-corasick 0.7.20": {
       "name": "aho-corasick",
@@ -9236,15 +9236,6 @@
             "alloc",
             "default",
             "std"
-          ],
-          "selects": {}
-        },
-        "deps": {
-          "common": [
-            {
-              "id": "memchr 2.5.0",
-              "target": "memchr"
-            }
           ],
           "selects": {}
         },
