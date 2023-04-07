@@ -15,11 +15,13 @@ load(
     "dedup_expand_location",
     "find_cc_toolchain",
     "make_static_lib_symlink",
+    _find_toolchain = "find_toolchain",
 )
 
 rust_analyzer_toolchain = _rust_analyzer_toolchain
 rustfmt_toolchain = _rustfmt_toolchain
 current_rustfmt_toolchain = _current_rustfmt_toolchain
+find_toolchain = _find_toolchain
 
 def _rust_stdlib_filegroup_impl(ctx):
     rust_std = ctx.files.srcs
