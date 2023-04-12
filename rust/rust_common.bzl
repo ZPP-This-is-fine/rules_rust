@@ -16,10 +16,10 @@
 
 load("//rust/private:providers.bzl", _ClippyInfo = "ClippyInfo", _CrateInfo = "CrateInfo",
                                      _BuildInfo = "BuildInfo", _DepInfo = "DepInfo"
-                                     _StdLibInfo = "StdLibInfo")
+                                     "StdLibInfo")
 
 CrateInfo = _CrateInfo
 BuildInfo = _BuildInfo
 DepInfo = _DepInfo
-RustStdLibInfo = _StdLibInfo
+RustStdLibInfo = StdLibInfo
 ClippyInfo = _ClippyInfo
