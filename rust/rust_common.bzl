@@ -21,5 +21,4 @@ load("//rust/private:providers.bzl", _ClippyInfo = "ClippyInfo", _CrateInfo = "C
 CrateInfo = _CrateInfo
 BuildInfo = _BuildInfo
 DepInfo = _DepInfo
-RustStdLibInfo = StdLibInfo
 ClippyInfo = _ClippyInfo
