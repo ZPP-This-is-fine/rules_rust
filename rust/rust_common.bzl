@@ -15,10 +15,11 @@
 """Module with Rust definitions required to write custom Rust rules."""
 
 load("//rust/private:providers.bzl", _ClippyInfo = "ClippyInfo", _CrateInfo = "CrateInfo",
-                                     _BuildInfo = "BuildInfo", _DepInfo = "DepInfo"
-                                     "StdLibInfo")
+                                     _BuildInfo = "BuildInfo", _DepInfo = "DepInfo",
+                                     _StdLibInfo = "StdLibInfo")
 
 CrateInfo = _CrateInfo
 BuildInfo = _BuildInfo
 DepInfo = _DepInfo
+StdLibInfo = _StdLibInfo
 ClippyInfo = _ClippyInfo
