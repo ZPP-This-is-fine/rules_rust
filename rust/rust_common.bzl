@@ -16,8 +16,10 @@
 
 load("//rust/private:providers.bzl", _ClippyInfo = "ClippyInfo", _CrateInfo = "CrateInfo",
                                      _BuildInfo = "BuildInfo", _DepInfo = "DepInfo")
+load("//rust/private:rust_analyzer.bzl", _RustAnalyzerInfo = "RustAnalyzerInfo")
 
 CrateInfo = _CrateInfo
 BuildInfo = _BuildInfo
 DepInfo = _DepInfo
 ClippyInfo = _ClippyInfo
+RustAnalyzerInfo = _RustAnalyzerInfo
